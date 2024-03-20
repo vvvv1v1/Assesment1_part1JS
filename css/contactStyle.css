@@ -20,4 +20,8 @@
 }
 #contactus #contactUs{
     display: block;
+    resize: none;
+}
+#contactForm #submit{
+    width: 100%;
 }
