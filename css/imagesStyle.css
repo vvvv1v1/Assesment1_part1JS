@@ -8,13 +8,16 @@
     text-align: center;
     color: black;
     border:2px solid #be758b;
+    border-radius: 10px;
     width: fit-content;
     padding: 8px;
 }
 .imageBox{
     display: flex;
     flex-direction: column;
+    background-color: #f3b2c4;
     border: 2px solid #be758b;
+    border-radius: 4px;
     padding: 4px;
     margin: 6px;
     width: 200px;
@@ -30,4 +33,5 @@
 }
 .imageBox .text{
     background-color: white;
+    border-radius: 0px 0px 5px 5px;
 }
