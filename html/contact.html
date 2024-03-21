@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contactStyle.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html/images.html">Image Gallery</a></li>
+                <li><a class="active" href="/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contactForm">
+        <form>
+            <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" size="40">
+            </div>
+            <div class="input">
+                <label for="email">e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter e-email" size="40">
+            </div>
+            <div class="input">
+                <label for="number">(optional) Phone Number:</label>
+                <input type="tel" id="number" name="number" placeholder="Enter number" size="14">
+            </div>
+            <div class="input" id="contactus">
+                <label for="contactUs">Reason for contacting us:</label>
+                <!-- <input type="text" id="contactUs" name="contactUs"> -->
+                <textarea name="contactUs" id="contactUs" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

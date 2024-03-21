@@ -1,0 +1,30 @@
+body{
+    background-color: #b0da7d;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+    background-color: #f3b2c4;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover:not(.active){
+    background-color: #be758b;
+}
+.active{
+    background-color: #e766dc65;
+}
